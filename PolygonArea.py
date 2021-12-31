@@ -1,4 +1,5 @@
 import numpy as np
+from numpy import arctan2, cos, sin, sqrt, pi, power, append, diff, deg2rad
 
 
 def polygon_area(lats, lons, radius=6378137):
@@ -11,7 +12,6 @@ def polygon_area(lats, lons, radius=6378137):
     if len(lats) < 3 or len(lons) < 3:
         raise ValueError("provide at least 3 lats and longs")
 
-    from numpy import arctan2, cos, sin, sqrt, pi, power, append, diff, deg2rad
     lats = np.deg2rad(lats)
     lons = np.deg2rad(lons)
 
