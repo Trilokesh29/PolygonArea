@@ -4,4 +4,4 @@
 > To calculate area of multiple enclosures, separate the co-ordinated by an empty line
 > input.txt can be taken as a reference
 
-# Run `python3 main.py` after placing all the co-ordinates to be considered.
+# Run `python3 main.py` after placing all the co-ordinates to be considered in the `input.txt` file.
